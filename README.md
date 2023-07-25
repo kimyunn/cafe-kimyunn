@@ -1,3 +1,3 @@
 # cafe-kimyunn
 
-![다이어그램](https://github.com/kimyunn/cafe-kimyunn/assets/137992559/c81271ce-32f8-4449-ac5d-7e02b09310a9)
+![KakaoTalk_Snapshot_20230725_205049](https://github.com/kimyunn/cafe-kimyunn/assets/137992559/7862e560-eab7-4383-9240-e8a0528f41e1)
