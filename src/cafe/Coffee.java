@@ -5,7 +5,7 @@ public class Coffee {
     private String size;
     private int price;
 
-    public Coffee(MenuItem menuItem) {
+    public Coffee(Menu menuItem) {
         this.name = menuItem.getName();
         this.size = menuItem.getSize();
         this.price = menuItem.getPrice();

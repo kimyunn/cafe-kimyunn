@@ -1,21 +1,28 @@
 package cafe;
 
-import java.util.List;
-
 public class Menu {
-    private List<MenuItem> items;
+    private String name;
+    private String size;
+    private int price;
 
-    public Menu(List<MenuItem> items) {
-        this.items = items;
+    public Menu(String name, String size, int price) {
+        this.name = name;
+        this.size = size;
+        this.price = price;
     }
 
-    public MenuItem choose(String menuName, String menuSize) {
-        for (MenuItem each : items) {
-            if (each.getName().equals(menuName) && each.getSize().equals(menuSize)) {
-                return each;
-            }
-        }
-        return null;
+
+    public String getName() {
+        return name;
     }
+
+    public String getSize() {
+        return size;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
 
 }
